@@ -1,0 +1,253 @@
+{
+  "settings": {
+    "name": "宗榮蛋品企業社變混蛋",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise-amp",
+      "title": "Mobirise AMP",
+      "styling": {
+        "primaryColor": "#ffffff",
+        "secondaryColor": "#ff7800",
+        "successColor": "#edf58b",
+        "infoColor": "#ffffff",
+        "warningColor": "#ff8f00",
+        "dangerColor": "#ffdc00",
+        "mainFont": "Inter",
+        "display1Font": "Noto Sans JP",
+        "display1Size": 4,
+        "display2Font": "Roboto",
+        "display2Size": 3.25,
+        "display5Font": "Inter",
+        "display5Size": 1.8,
+        "display7Font": "Inter",
+        "display7Size": 1.2,
+        "display4Font": "Inter",
+        "display4Size": 1,
+        "isRoundedButtons": true,
+        "isScrollToTopButton": true,
+        "arrowColor": "#ff7800"
+      },
+      "additionalSetColors": [
+        "#ff7800",
+        "#ff0000",
+        "#ff7300",
+        "#fbffc9",
+        "#583406",
+        "#f79b27"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "5.2.0",
+    "siteFonts": [
+      {
+        "css": "'Play', sans-serif",
+        "name": "Play",
+        "url": "https://fonts.googleapis.com/css?family=Play:400,700"
+      },
+      {
+        "css": "'Noto Sans JP', sans-serif",
+        "name": "Noto Sans JP",
+        "url": "https://fonts.googleapis.com/css?family=Noto+Sans+JP:100,300,400,500,700,900"
+      },
+      {
+        "css": "'Roboto', sans-serif",
+        "name": "Roboto",
+        "url": "https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
+      },
+      {
+        "css": "'Inter', sans-serif",
+        "name": "Inter",
+        "url": "https://fonts.googleapis.com/css?family=Inter:100,200,300,400,500,600,700,800,900"
+      }
+    ],
+    "dppsSwitcher": true,
+    "spellingSwitch": true,
+    "imageResize": true,
+    "favicon": false,
+    "robotsSwitcher": true,
+    "sitemapSwitcher": true,
+    "sitemapSwitcherAuto": "on",
+    "siteUrl": "https://zong-rong.mobirisesite.com/sitemap.xml",
+    "cookiesAlert": false,
+    "gdpr": false,
+    "site_lang": "undefined",
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
+    "uniqCompNum": 7,
+    "versionPublish": "5.2.0",
+    "screenshot": "screenshot.png",
+    "canonical-url": "http://zong-rong.mobirisesite.com",
+    "publishChangesOnly": false
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "宗榮蛋品企業社變混蛋",
+        "meta_descr": "蛋品、液體蛋、液全蛋、洗選蛋、鮮蛋、鹽蛋、雞蛋布丁蛋殼 \n\n今天再撲殺新增感染的一場，共計撲殺１萬7686隻土雞，動物防疫所派消毒車，針對大城鄉養畜禽場周邊環境加強消毒工作",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value",
+              "& when (@twoColor)": {
+                "background": "linear-gradient(225deg, @bg-value 0, @twoColorBg 75%)"
+              }
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-title": {
+              "color": "#ff7300"
+            },
+            ".mbr-section-subtitle, .mbr-section-btn": {
+              "color": "#000000"
+            }
+          },
+          "_name": "header4",
+          "_sourceTheme": "mobirise-amp",
+          "_customHTML": "<section class=\"header4\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/15224600695662n57507046-640x428.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"2 Color\" name=\"twoColor\" condition=\"bg.type == 'color'\" checked>\n        <input type=\"color\" title=\"Color 2\" value=\"#ffffff\" name=\"twoColorBg\" condition=\"twoColor && bg.type == 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <h1 class=\"mbr-fonts-style mbr-section-title align-left mbr-white mbr-bold mbr-pb-2\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 宗榮蛋變混蛋</h1>\n        <h2 class=\"mbr-fonts-style mbr-section-subtitle align-left mbr-white mbr-semibold mbr-pb-3\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-section-subtitle, .mbr-section-btn\">蛋品、液體蛋、液全蛋、洗選蛋、鮮蛋、鹽蛋、雞蛋布丁蛋殼&nbsp;<br><br>今天再撲殺新增感染的一場，共計撲殺１萬7686隻土雞，動物防疫所派消毒車，針對大城鄉養畜禽場周邊環境加強消毒工作<br><br><br></h2>\n        <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n            <a class=\"btn btn-md btn-white\" href=\"https://mobiri.se\">\n                Try It\n            </a>\n        </div>\n    </div>\n</section>",
+          "_cid": "slZbPd80Xd",
+          "_anchor": "header4-0",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "blockquote": {
+              "border-color": "@lineColor",
+              "line-height": "2"
+            },
+            "a": {
+              "font-style": "italic"
+            },
+            "DIV": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "content10",
+          "_sourceTheme": "mobirise-amp",
+          "_customHTML": "<section class=\"010 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <header>Show/Hide</header>\n        <input type=\"color\" title=\"Line\" name=\"lineColor\" value=\"#ff7800\">\n        <select name=\"alignContent\" title=\"Align Content\">\n            <option value=\"1\">Left</option>\n            <option value=\"2\" selected>Center</option>\n            <option value=\"3\">Right</option>\n        </select>\n        <input type=\"range\" title=\"Width\" name=\"textWidth\" min=\"4\" max=\"12\" step=\"1\" value=\"8\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/15224600695662n57507046-640x428.jpg\" selected>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-row\" mbr-class=\"{'mbr-jc-c' : alignContent == 2, 'mbr-jc-e' : alignContent == 3}\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-10 mbr-col-lg-{{textWidth}}\">\n                <div class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-multiline mbr-article>\n                    <blockquote><i><b>怎樣診斷雞吸蟲病？如何科學預防雞吸蟲病？<br><br>\n</b></i><i style=\"font-family: inherit; font-size: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit; font-weight: inherit;\"><b>雞吸蟲病這一常見寄生蟲類雞病，雖然不會導致養雞場雞群的直接死亡，但是容易影響養雞場雞群的正常生長，在一定程度上將損害養雞場的利益，了解雞吸蟲病這一雞病的診斷方法以及預防措施，是防治該雞病的重點，養殖戶要從這兩方面入手，做好延遲雞吸蟲雞病的防治工作</b></i></blockquote>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "slZbR9JzMt",
+          "_anchor": "content10-1",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value",
+              "& when (@twoColor)": {
+                "background": "linear-gradient(225deg, @bg-value 0, @twoColorBg 75%)"
+              }
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".video-title": {
+              "position": "relative",
+              "z-index": "1"
+            },
+            ".video-block": {
+              "amp-vimeo": {
+                "border-radius": "10px",
+                "box-shadow": "inset 0 0 0 1px #ebebf0, 0 15px 30px 0 rgba(0, 0, 0, 0.15)"
+              },
+              "& when not (@fullWidth)": {
+                "@media (max-width: 767px)": {
+                  "width": "100% !important"
+                }
+              },
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#ff8f00"
+            }
+          },
+          "_name": "vimeo1",
+          "_sourceTheme": "mobirise-amp",
+          "_customHTML": "<section class=\"vimeo1\" group=\"Images & Videos\" plugins=\"amp-main,amp-vimeo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"5\" step=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"5\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"range\" inline title=\"Width\" name=\"videoSize\" min=\"4\" max=\"12\" value=\"9\" step=\"1\">\n        <input type=\"text\" title=\"Vimeo Video URL\" name=\"videoUrl\" value=\"https://vimeo.com/500093335\">\n        <header>Backgrouund</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/15224600695662n57507046-640x428.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"2 Color\" name=\"twoColor\" condition=\"bg.type == 'color'\">\n        <input type=\"color\" title=\"Color 2\" value=\"#ff7800\" name=\"twoColorBg\" condition=\"twoColor && bg.type == 'color'\">\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid' : fullWidth}\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-{{videoSize}}\">\n            <div class=\"video-title align-center\">\n                <h2 class=\"mbr-section-title mbr-white mbr-fonts-style mbr-bold\" mbr-class=\"{'mbr-pb-4': !fullWidth, 'mbr-py-2': fullWidth}\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">宗榮蛋 生蛋是「黑的」煎完變「綠」　民眾慌：不敢吃！\n                </h2>\n            </div>\n            <div class=\"video-block\">\n                <amp-vimeo data-videoid=\"60855585\" layout=\"responsive\" width=\"16\" height=\"9\" class=\"mobirise-loader\">\n                    <div placeholder class=\"placeholder\"></div>\n                </amp-vimeo>\n            </div>\n        </div>\n    </div>\n        </div>\n</section>",
+          "_cid": "slZg2Vn9yK",
+          "_anchor": "vimeo1-4",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".card-img": {
+              "border-radius": "10px",
+              "box-shadow": "inset 0 0 0 1px #ebebf0, 0 15px 30px 0 rgba(0, 0, 0, 0.15)"
+            },
+            "img": {
+              "border-radius": "10px"
+            },
+            ".link": {
+              "transition": "all 0.3s cubic-bezier(0.25, 0.1, 0.25, 1)",
+              ".mbr-iconfont": {
+                "font-size": "16px",
+                "width": "16px",
+                "margin-right": "10px",
+                "vertical-align": "middle"
+              },
+              "&:hover": {
+                "transform": "translatex(10px)"
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            },
+            ".mbr-text": {
+              "color": "#ff7300"
+            }
+          },
+          "_name": "features1",
+          "_sourceTheme": "mobirise-amp",
+          "_customHTML": "<section class=\"features1 mbr-section\" group=\"Features\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked=\"\">\n        <input type=\"checkbox\" title=\"Link\" name=\"showLink\" checked=\"\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected=\"\">2</option>\n        </select>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"../_images/background2.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#000000\" selected=\"\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <div class=\"\" mbr-class=\"{'container' : !fullWidth, 'container-fluid' : fullWidth}\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"card mbr-col-sm-12 mbr-col-md-6\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <amp-img src=\"@PROJECT_PATH@/assets/images/20181008195819-6c36937ea854ff55a16dee96147b3177-mobile-1-800x492.jpg\" layout=\"responsive\" width=\"537.9821138211381\" height=\"330.859\" alt=\"宗榮蛋\" class=\"mobirise-loader\">\n                            <div placeholder=\"\" class=\"placeholder\"></div>\n                            <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/20181008195819-6c36937ea854ff55a16dee96147b3177-mobile-1-800x492.jpg\" alt=\"宗榮蛋\">\n                        </amp-img>\n                    </div>\n                    <div class=\"card-box mbr-pt-4\">\n                        <h4 class=\"mbr-section-title mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n                            【毒蛋竄全台】慎入！　手撈蛋黃超噁畫面曝光\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style mbr-pt-1\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                            員工徒手撈起蛋黃裝瓶成為液體蛋，販售給飯店和餐廳小吃部\n                        </p>\n                        <p class=\"link mbr-fonts-style mbr-bold mbr-pt-2\" mbr-theme-style=\"display-4\" mbr-if=\"showLink\" data-app-selector=\".link\"></p>\n                    </div>\n                </div>\n            </div>\n            \n            <div class=\"card mbr-col-sm-12 mbr-col-md-6 last-child\" mbr-if=\"cardsAmount > 1\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <amp-img src=\"@PROJECT_PATH@/assets/images/r527n137-83s1-4r73-81o6-5r8qr72r4op1-1-640x480.jpg\" layout=\"responsive\" height=\"403.5\" width=\"538\" alt=\"Mobirise\" class=\"mobirise-loader\">\n                            <div placeholder=\"\" class=\"placeholder\"></div>\n                            <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/r527n137-83s1-4r73-81o6-5r8qr72r4op1-1-640x480.jpg\" alt=\"Mobirise\">\n                        </amp-img>\n                    </div>\n                    <div class=\"card-box mbr-pt-4\">\n                        <h4 class=\"mbr-section-title mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">食物中毒 最大兇手，竟是 雞蛋與蛋製品！</h4>\n                        <p class=\"mbr-text mbr-fonts-style mbr-pt-1\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">同樣的，沙門氏菌\n在台灣也有多起食品中毒案例，\n<br>更曾發生學生食用早餐店裹上生蛋液\n但未充分加熱的吐司而致死事件</p>\n                        <p class=\"link mbr-fonts-style mbr-bold mbr-pt-2\" mbr-theme-style=\"display-4\" mbr-if=\"showLink\" data-app-selector=\".link\"></p>\n                    </div>\n                </div>\n            </div>\n            \n        </div>\n    </div>\n</section>",
+          "_cid": "slZAhCMl8O",
+          "_anchor": "features1-6",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    }
+  }
+}
